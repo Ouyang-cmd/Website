@@ -26,9 +26,11 @@ vim nginx.conf
 
 # linux
 sudo lsof -i :8080
+
 kill -9 端口号
 
 # java
 nohup java -jar /var/www/hcovinfo-api-0.0.1-SNAPSHOT.jar > output.log 2>&1 &
+
 cat output.log【查看堆栈信息，服务器中的后端项目报错所在】
 
