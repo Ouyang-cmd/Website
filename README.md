@@ -16,8 +16,11 @@ https://www.runoob.com/mysql/mysql-database-import.html
 
 # nginx(nginx.conf配置是重中之重)
 nginx的安装
+
 systemctl restart nginx
+
 cat output.log
+
 vim nginx.conf
 
 
