@@ -1,6 +1,11 @@
 # Website
 
+# ECS-云服务器
+查看服务器的版本
+
 # MySQL
+MySQL的安装
+
 mysql -u root -p
 
 mysql导入数据(常用方法有二)：
@@ -10,6 +15,7 @@ https://www.runoob.com/mysql/mysql-database-import.html
 会导致后端报错，sql语法错误【而且这个错很难发现】，从而导致postman访问请求url，报错500，前端自然无法取到数据了
 
 # nginx(nginx.conf配置是重中之重)
+nginx的安装
 systemctl restart nginx
 cat output.log
 vim nginx.conf
