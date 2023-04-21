@@ -6,6 +6,8 @@ mysql -u root -p
 mysql导入数据(常用方法有二)：
 https://www.runoob.com/mysql/mysql-database-import.html
 
+注意：如果MySQL的数据库字段为：关键字（如function等）[可用notepad++等查看，会发现关键字颜色会跟一般的颜色不同]，
+会导致后端报错，sql语法错误【而且这个错很难发现】
 
 # nginx(nginx.conf配置是重中之重)
 systemctl restart nginx
