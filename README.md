@@ -40,10 +40,13 @@ java -version
 
 这个命令将会显示 JDK 的版本信息，包括版本号、发行商和操作系统信息。
 
-# [root@canoeingfor ~]# java -version
-# openjdk version "1.8.0_362"
-# OpenJDK Runtime Environment (build 1.8.0_362-b08)
-# OpenJDK 64-Bit Server VM (build 25.362-b08, mixed mode)
+[root@canoeingfor ~]# java -version
+
+openjdk version "1.8.0_362"
+
+OpenJDK Runtime Environment (build 1.8.0_362-b08)
+
+OpenJDK 64-Bit Server VM (build 25.362-b08, mixed mode)
 
 # (2) 查看 Java 版本：在终端中输入以下命令即可查看 Java 版本：[java -version输出版本了，但是javac -version不行]
 javac -version
